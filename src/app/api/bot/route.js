@@ -12,10 +12,10 @@ bot.command("start", async (ctx) => {
   const keyboard = {
     inline_keyboard: [
       [{ text: "🔘 Start Now", web_app: { url: "https://tradon-ten.vercel.app" } }],  // 게임 링크 수정
-      [{ text: "💬 Telegram", url: "https://t.me/tradonai" }],
       [{ text: "🧵 Twitter (X)", url: "https://x.com/aitradonx" }],
       [{ text: "🌐 Website", url: "https://www.tradon.world" }],
       [{ text: "📄 Whitepaper", url: "https://tradonai.gitbook.io/docs/" }],
+      // [{ text: "💬 Telegram", url: "https://t.me/tradonai" }],
     ],
   };
 
